@@ -40,8 +40,8 @@ public class InfoScreen2 extends ScreenAdapter {
         nextButtonView = new ButtonView(920, 0,
             GameSettings.NEXT_BUTTON_WIDTH, GameSettings.NEXT_BUTTON_HEIGHT,
             myGdxGame.commonBlackFont, GameResources.BUTTON_LONG_BG_IMG_PATH,
-            "next step");
-        textView = new TextView(myGdxGame.largeWhiteFont, 650, 700, text);
+            "go out");
+        textView = new TextView(myGdxGame.fontForText, 600, 600, text);
 
     }
 

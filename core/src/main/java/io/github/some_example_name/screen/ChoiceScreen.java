@@ -66,7 +66,7 @@ public class ChoiceScreen extends ScreenAdapter {
                 // we have total problem, i need 1 shans for die...
             }
             if (socialistParty.isHit(myGdxGame.touch.x, myGdxGame.touch.y)) {
-                myGdxGame.setScreen(myGdxGame.menuScreen);
+                myGdxGame.setScreen(myGdxGame.infoForSocilian);
             }
             if (kingsGambit.isHit(myGdxGame.touch.x, myGdxGame.touch.y)) {
                 myGdxGame.setScreen(myGdxGame.menuScreen);
